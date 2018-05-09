@@ -1,0 +1,51 @@
+.btn {
+    text-decoration-color: white;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 120%;
+    color: white;
+    
+    padding: 10px;
+    border-radius: 25px;
+    border-style: none;
+    background-color: orange;
+    
+    position: relative;
+    
+    
+}
+
+.btn:hover {
+    background-color: dodgerblue;
+}
+.btn:active {
+    outline: none;
+    border: none;
+    border-color: none;
+}
+
+.joke-container {
+    position: relative;
+    text-align: center;
+    margin: 10%;
+}
+
+li {
+    list-style: none;
+    padding-bottom: 5%;
+    
+    font-family: sans-serif;
+    text-align: center;
+    color: white;
+    font-size: 100%;
+    
+}
+
+.author {
+    padding-bottom: 10%;
+}
+
+/* this bit of code gets ride of the stupid blue link border around buttons */
+* {
+	outline: none;
+}
